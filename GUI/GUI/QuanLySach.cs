@@ -226,13 +226,13 @@ namespace GUI
         private void btnXoa_Click(object sender, EventArgs e)
         {
             txtMaSach.Text = "";
-            ccbtacgia.SelectedItem = "";
-            ccbtheloai.SelectedItem = "";
-            cbbnxb.SelectedItem = "";
+            ccbtacgia.SelectedItem = null;
+            ccbtheloai.SelectedItem = null;
+            cbbnxb.SelectedItem = null;
             txtTenSach.Text = "";
             txtGiaSach.Text = "";
             txtSoLuong.Text = "";
-            cbbTrangThaiSach.Text = "";
+            cbbTrangThaiSach.Text = null;
             dtpNgayXuatBan.Text = null;
             txtVitri.Text = "";
             txtMoTa.Text = "";
