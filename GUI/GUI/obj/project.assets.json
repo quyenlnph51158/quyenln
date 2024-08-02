@@ -2936,23 +2936,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Users\\MSI\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\OneDrive\\Máy tính\\LASTCHANGE\\quyenln\\GUI\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\GUI.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\obj\\",
+      "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\LASTCHANGE\\quyenln\\GUI\\GUI\\GUI.csproj",
+      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\LASTCHANGE\\quyenln\\GUI\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2961,15 +2961,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\BLL.csproj"
+            "C:\\Users\\MSI\\OneDrive\\Máy tính\\LASTCHANGE\\quyenln\\GUI\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\LASTCHANGE\\quyenln\\GUI\\BLL\\BLL.csproj"
             }
           }
         }
@@ -3007,7 +3006,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

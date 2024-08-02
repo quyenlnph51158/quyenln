@@ -11,165 +11,55 @@ namespace BLL
 {
     public class LapPhieuMuonChiTietBLL
     {
-        LapPhieuMuonChiTietDAL db=new LapPhieuMuonChiTietDAL();
-
-        public List<PhieuMuon> GetAllPhieuMuon()
+        ChitietRepository repos;
+        SachRepository reposs;
+        public ChitietBLL()
         {
-            var list = db.GetAllPhieuMuon().ToList();
-            return list;
+            repos = new ChitietRepository();
         }
-        public List<Sach> GetAllSach()
+        public List<ChiTietPhieuMuon> GetChiTietPhieuMuons()
         {
-            var list = db.GetAllSach().ToList();
-            return list;
+            return repos.GetAll();
         }
-        public List<DocGium> GetAllDocGium()
+        public string SuaCT(ChiTietPhieuMuon ct)
         {
-            var list = db.GetAllDocGium().ToList();
-            return list;
-        }
-        public List<ChiTietPhieuMuon> GetAllChiTietPhieuMuon()
-        {
-            var list = db.GetAllChiTietPhieuMuon().ToList();
-            return list;
-        }
-        public List<TaiKhoan> GetAllTaiKhoan()
-        {
-            var list =db.GetAllTaiKhoan().ToList();
-            return list;
-        }
-        public ChiTietPhieuMuon GetChiTietByMaPhieuMuon(string ma)
-        {
-            foreach(var i in db.GetAllChiTietPhieuMuon().ToList())
+            var ctphieumuon = repos.GetAll().Find(x => x.MaChiTiet == ct.MaChiTiet);
+            if (ctphieumuon == null)
             {
-                if (i.MaPhieuMuon.Equals(ma))
-                {
-                    return i;
-                }
+                return "Không tìm thấy phiếu cần sửa";
             }
-            return null;
-        }
-        public DocGium GetDocGiaById(string id)    
-        {
-            foreach(var ph in db.GetAllDocGium().ToList())
+            if (ct.NgayMuon > ct.NgayTra)
             {
-                if (ph.MaDocGia.Equals(id))
-                {
-                    return ph;
-                }
+                return "Ngày trả không thể nhỏ hơn ngày mượn";
             }
-            return null;
-        }
-        public Sach GetSachByID(string id)
-        {
-            foreach(var i in db.GetAllSach().ToList())
+            var sach = reposs.getbyms(ct.MaSach);
+            if (sach == null)
             {
-                if(i.MaSach.Contains(id))
-                {
-                    return i;
-                }    
+                return "Không tìm thấy sách";
             }
-            return null ;
-        }
-        public Sach GetSachByName(string name)
-        {
-            foreach (var i in db.GetAllSach().ToList())
+            if ((bool)!ctphieumuon.TrangThai && (bool)ct.TrangThai)
             {
-                if (i.TenSach.Contains(name))
-                {
-                    return i;
-                }
+                sach.SoLuong -= ctphieumuon.SoLuong;
             }
-            return null;
-        }
-        public DocGium GetDocGiumByName(string name)
-        {
-            foreach(var i in db.GetAllDocGium().ToList())
+            if ((bool)ct.TrangThai)
             {
-                if (i.TenDocGia.ToLower().ToString().Contains(name.ToLower().ToString()))
-                {
-                    return i;
-                }
+                sach.SoLuong += ct.SoLuong;
             }
-            return null;
-        }
-
-        public TaiKhoan GetTaiKhoanByName(string name)
-        {
-            foreach(var i in db.GetAllTaiKhoan().ToList())
+            reposs.Update_sach(sach);
+            if (repos.Update_obj(ct))
             {
-                if (i.HoTen.ToLower().ToString().Contains(name.ToLower().ToString()))
-                {
-                    return i;
-                }
+                return "Sửa thành công";
             }
-            return null;
+            return "Sửa thất bại";
         }
-        
-        public TaiKhoan GetTaiKhoanById(string Id)
+        public string XoaCT(string ct)
         {
-            foreach (var i in db.GetAllTaiKhoan().ToList())
+            var tp = repos.GetAll().Find(x => x.MaChiTiet == ct);
+            if (repos.Remove_Obj(tp))
             {
-                if (i.MaTaiKhoan.ToLower().ToString().Contains(Id.ToLower().ToString()))
-                {
-                    return i;
-                }
+                return "Xóa thành công";
             }
-            return null;
-        }
-        public PhieuMuon GetPhieuMuonById(string id)
-        {
-            foreach (var i in db.GetAllPhieuMuon().ToList())
-            {
-                if (i.MaPhieuMuon.ToLower().ToString().Contains(id.ToLower().ToString()))
-                {
-                    return i;
-                }
-            }
-            return null;
-        }
-
-        public void AddChiTiet(string maChiTiet, string maPhieuMuon, string maSach, int soLuong, double tongTien, DateOnly ngayMuon, DateOnly ngayTra, string moTa, bool trangThai)
-        {
-            ChiTietPhieuMuon ct=new ChiTietPhieuMuon();
-            ct.MaChiTiet = maChiTiet;
-            ct.MaPhieuMuon = maPhieuMuon;
-            ct.MaSach = maSach;
-            ct.SoLuong = soLuong;
-            ct.TongTien = tongTien;
-            ct.NgayTra = ngayTra;
-            ct.NgayMuon = ngayMuon;
-            ct.GhiChu = moTa;
-            ct.TrangThai = trangThai;
-            Sach s = GetSachByID(maSach);
-            s.SoLuong = s.SoLuong - soLuong;
-            db.AddPhieuChiTiet(ct,s);
-            
-
-            
-        }
-        public void ADDPhieuMuon(string maPhieuMuon, string maDocGia, string maTaiKhoan)
-        {
-            PhieuMuon pm=new PhieuMuon();
-            pm.MaPhieuMuon= maPhieuMuon;
-            pm.MaDocGia= maDocGia;
-            pm.MaTaiKhoan= maTaiKhoan;
-            db.AddPhieuMuon(pm);
-        }
-        public void UpdatePhieuMuon(string maPhieuMuon, string maDocGia, string maTaiKhoan)
-        {
-            PhieuMuon pm = GetPhieuMuonById(maPhieuMuon);
-            pm.MaPhieuMuon = maPhieuMuon;
-            pm.MaDocGia = maDocGia;
-            pm.MaTaiKhoan = maTaiKhoan;
-
-            db.UpdatePhieuMuon(pm);
-        }
-        public void UpdateSach(string maSach,int soLuong)
-        {
-            Sach s = GetSachByID(maSach);
-            s.SoLuong = s.SoLuong - soLuong;
-            db.UpdateSach(s);
+            return "Xóa thất bại";
         }
     }
 }

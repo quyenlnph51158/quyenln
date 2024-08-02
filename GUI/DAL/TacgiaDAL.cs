@@ -8,37 +8,36 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class LapPhieuMuonChiTietDAL
+    public class TacgiaDAL
     {
         MyContext context = new MyContext();
-        public ChitietRepository()
+        public TacgiaRepository()
         {
             context = new MyContext();
         }
-        public List<ChiTietPhieuMuon> GetAll()
+        public List<TacGium> GetAll()
         {
-            return context.ChiTietPhieuMuons.ToList();
+            return context.TacGia.ToList();
         }
-        public bool Update_obj(ChiTietPhieuMuon ct)
+        public bool Add_Obj(TacGium tg)
         {
-            if (ct == null)
+            if (tg == null)
             {
                 return false;
             }
-            context.ChiTietPhieuMuons.Update(ct);
+            context.TacGia.Add(tg);
             context.SaveChanges();
             return true;
         }
-        public bool Remove_Obj(ChiTietPhieuMuon ct)
+        public bool Update_Obj(TacGium tg)
         {
-            if (ct == null)
+            if (tg == null)
             {
                 return false;
             }
-            context.ChiTietPhieuMuons.Remove(ct);
+            context.TacGia.Update(tg);
             context.SaveChanges();
             return true;
         }
-
     }
 }
