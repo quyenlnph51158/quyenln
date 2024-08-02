@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\GUI.csproj": {}
   },
   "projects": {
@@ -12,13 +13,22 @@
         "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\obj\\",
+=======
+    "D:\\DuAn1_Last\\quyenln\\GUI\\GUI\\GUI.csproj": {}
+  },
+  "projects": {
+    "D:\\DuAn1_Last\\quyenln\\GUI\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DuAn1_Last\\quyenln\\GUI\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\DuAn1_Last\\quyenln\\GUI\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\DuAn1_Last\\quyenln\\GUI\\BLL\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +36,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DAL\\DAL.csproj"
+=======
+              "D:\\DuAn1_Last\\quyenln\\GUI\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\DuAn1_Last\\quyenln\\GUI\\DAL\\DAL.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -43,11 +57,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,10 +78,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< Updated upstream
     "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -81,13 +91,19 @@
         "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DAL\\obj\\",
+=======
+    "D:\\DuAn1_Last\\quyenln\\GUI\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DuAn1_Last\\quyenln\\GUI\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\DuAn1_Last\\quyenln\\GUI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\DuAn1_Last\\quyenln\\GUI\\DAL\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,15 +111,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DTO\\DTO.csproj": {
                 "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DTO\\DTO.csproj"
+=======
+              "D:\\DuAn1_Last\\quyenln\\GUI\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\DuAn1_Last\\quyenln\\GUI\\DTO\\DTO.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -112,11 +132,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -138,10 +153,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< Updated upstream
     "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -150,13 +166,19 @@
         "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DTO\\obj\\",
+=======
+    "D:\\DuAn1_Last\\quyenln\\GUI\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DuAn1_Last\\quyenln\\GUI\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "D:\\DuAn1_Last\\quyenln\\GUI\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\DuAn1_Last\\quyenln\\GUI\\DTO\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,7 +186,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -177,11 +198,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -219,10 +235,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< Updated upstream
     "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -231,13 +248,19 @@
         "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\GUI.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\obj\\",
+=======
+    "D:\\DuAn1_Last\\quyenln\\GUI\\GUI\\GUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DuAn1_Last\\quyenln\\GUI\\GUI\\GUI.csproj",
+        "projectName": "GUI",
+        "projectPath": "D:\\DuAn1_Last\\quyenln\\GUI\\GUI\\GUI.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\DuAn1_Last\\quyenln\\GUI\\GUI\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,15 +268,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\BLL.csproj": {
                 "projectPath": "C:\\visual\\Dự án 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\BLL.csproj"
+=======
+              "D:\\DuAn1_Last\\quyenln\\GUI\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\DuAn1_Last\\quyenln\\GUI\\BLL\\BLL.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -262,11 +289,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -291,7 +313,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
