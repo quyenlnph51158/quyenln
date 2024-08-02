@@ -171,8 +171,9 @@
             btnhienthi.Name = "btnhienthi";
             btnhienthi.Size = new Size(94, 29);
             btnhienthi.TabIndex = 149;
-            btnhienthi.Text = "Hiển Thị";
+            btnhienthi.Text = "Clear";
             btnhienthi.UseVisualStyleBackColor = false;
+            btnhienthi.Click += btnhienthi_Click;
             // 
             // btnsua
             // 

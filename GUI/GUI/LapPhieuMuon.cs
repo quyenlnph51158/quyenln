@@ -188,15 +188,15 @@ namespace GUI
                 textBox1.Text = tongtien.ToString();
                 dtChiTiet.Rows.Add(row);
                 dgvPhieuChitiet.DataSource = dtChiTiet;
+                db.UpdateSach(maSach, form.soLuongMuon);
+                dtSach.Rows.Clear();
+                LoadValuesSach();
 
-                
 
             }
 
 
-            db.UpdateSach(maSach, soLuong);
-            dtSach.Rows.Clear();
-            LoadValuesSach();
+
 
 
 
@@ -301,7 +301,7 @@ namespace GUI
 
                     }
                 }
-                
+
             }
 
         }
@@ -315,7 +315,7 @@ namespace GUI
             soLuong = Convert.ToInt32(dr.Cells[2].Value);
             tongTien = Convert.ToDouble(dr.Cells[3].Value);
 
-            
+
 
 
 
@@ -326,19 +326,27 @@ namespace GUI
             var maPhieuMuon = txtMaPhieuMuon.Text;
             var maDocGia = db.GetDocGiumByName(txtMaDocGia.Text).MaDocGia.ToString();
             var maTaiKhoan = db.GetTaiKhoanByName(cbbmataikhoan.Text).MaTaiKhoan.ToString();
-            db.UpdatePhieuMuon(maPhieuMuon,maDocGia,maTaiKhoan);
+            db.UpdatePhieuMuon(maPhieuMuon, maDocGia, maTaiKhoan);
             dtPhieuMuon.Rows.Clear();
             LoadValuePhieuMuon();
         }
 
         private void dgvPhieuMuon_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            DataGridViewRow dr=dgvPhieuMuon.Rows[e.RowIndex];
+            DataGridViewRow dr = dgvPhieuMuon.Rows[e.RowIndex];
             txtMaPhieuMuon.Text = dr.Cells[0].Value.ToString();
-            cbbmataikhoan.Text=dr.Cells[2].Value.ToString();
-            txtMaDocGia.Text=dr.Cells[1].Value.ToString();
+            cbbmataikhoan.Text = dr.Cells[2].Value.ToString();
+            txtMaDocGia.Text = dr.Cells[1].Value.ToString();
             txtSDT.Text = db.GetDocGiumByName(dr.Cells[1].Value.ToString()).Sdt.ToString();
-            
+
+        }
+
+        private void btnhienthi_Click(object sender, EventArgs e)
+        {
+            cbbmataikhoan.SelectedItem= null;
+            txtSDT.Text= null;
+            txtMaPhieuMuon.Text = "";
+            txtMaDocGia.Text = "";
         }
     }
 }
