@@ -108,9 +108,9 @@ namespace BLL
         
         public TaiKhoan GetTaiKhoanById(string Id)
         {
-            foreach (var i in db.GetAllTaiKhoan().ToList())
+            foreach(var i  in db.GetAllTaiKhoan().ToList())
             {
-                if (i.MaTaiKhoan.ToLower().ToString().Contains(Id.ToLower().ToString()))
+                if (i.MaTaiKhoan.ToLower().Contains(Id.ToLower()))
                 {
                     return i;
                 }

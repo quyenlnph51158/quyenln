@@ -28,3 +28,18 @@ C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\DTO\obj\Debug\net
 C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\DTO\obj\Debug\net8.0\DTO.pdb
 C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\DTO\obj\Debug\net8.0\DTO.genruntimeconfig.cache
 C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\DTO\obj\Debug\net8.0\ref\DTO.dll
+D:\U1\quyenln\GUI\DTO\bin\Debug\net8.0\DTO.deps.json
+D:\U1\quyenln\GUI\DTO\bin\Debug\net8.0\DTO.runtimeconfig.json
+D:\U1\quyenln\GUI\DTO\bin\Debug\net8.0\DTO.dll
+D:\U1\quyenln\GUI\DTO\bin\Debug\net8.0\DTO.pdb
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.csproj.AssemblyReference.cache
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.sourcelink.json
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.dll
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\refint\DTO.dll
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.pdb
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\DTO.genruntimeconfig.cache
+D:\U1\quyenln\GUI\DTO\obj\Debug\net8.0\ref\DTO.dll

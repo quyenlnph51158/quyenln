@@ -38,7 +38,6 @@
             txtsocccd = new TextBox();
             label4 = new Label();
             btnhienthi = new Button();
-            btnxoa = new Button();
             dateNgaySinh = new DateTimePicker();
             btnsua = new Button();
             btnthem = new Button();
@@ -66,6 +65,7 @@
             txtTimKiem.PlaceholderText = "Tìm kiếm theo tên nhân viên ";
             txtTimKiem.Size = new Size(417, 27);
             txtTimKiem.TabIndex = 130;
+            txtTimKiem.TextChanged += txtTimKiem_TextChanged;
             // 
             // label8
             // 
@@ -88,6 +88,7 @@
             dgvtaikhoannv.RowHeadersWidth = 51;
             dgvtaikhoannv.Size = new Size(712, 516);
             dgvtaikhoannv.TabIndex = 112;
+            dgvtaikhoannv.CellClick += dgvtaikhoannv_CellClick;
             // 
             // groupBox1
             // 
@@ -118,7 +119,6 @@
             groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(btnhienthi);
-            groupBox2.Controls.Add(btnxoa);
             groupBox2.Controls.Add(dateNgaySinh);
             groupBox2.Controls.Add(btnsua);
             groupBox2.Controls.Add(btnthem);
@@ -175,17 +175,7 @@
             btnhienthi.TabIndex = 151;
             btnhienthi.Text = "Hiển Thị";
             btnhienthi.UseVisualStyleBackColor = false;
-            // 
-            // btnxoa
-            // 
-            btnxoa.BackColor = Color.FromArgb(255, 192, 128);
-            btnxoa.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnxoa.Location = new Point(494, 557);
-            btnxoa.Name = "btnxoa";
-            btnxoa.Size = new Size(94, 29);
-            btnxoa.TabIndex = 150;
-            btnxoa.Text = "Xóa";
-            btnxoa.UseVisualStyleBackColor = false;
+            btnhienthi.Click += btnhienthi_Click;
             // 
             // dateNgaySinh
             // 
@@ -198,23 +188,25 @@
             // 
             btnsua.BackColor = Color.FromArgb(255, 192, 128);
             btnsua.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnsua.Location = new Point(358, 557);
+            btnsua.Location = new Point(430, 557);
             btnsua.Name = "btnsua";
             btnsua.Size = new Size(94, 29);
             btnsua.TabIndex = 148;
             btnsua.Text = "Sửa";
             btnsua.UseVisualStyleBackColor = false;
+            btnsua.Click += btnsua_Click;
             // 
             // btnthem
             // 
             btnthem.BackColor = Color.FromArgb(255, 192, 128);
             btnthem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnthem.Location = new Point(215, 557);
+            btnthem.Location = new Point(246, 557);
             btnthem.Name = "btnthem";
             btnthem.Size = new Size(94, 29);
             btnthem.TabIndex = 147;
             btnthem.Text = "Thêm";
             btnthem.UseVisualStyleBackColor = false;
+            btnthem.Click += btnthem_Click;
             // 
             // txtMatKhau
             // 
@@ -338,7 +330,6 @@
         private TextBox txtsocccd;
         private Label label4;
         private Button btnhienthi;
-        private Button btnxoa;
         private DateTimePicker dateNgaySinh;
         private Button btnsua;
         private Button btnthem;

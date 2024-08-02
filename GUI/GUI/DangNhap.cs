@@ -12,6 +12,9 @@ namespace GUI
 {
     public partial class DangNhap : Form
     {
+        //DangNhapBLL BLLDangNha = new DangNhapBLL();
+        public string a = "";
+        public string b = "";
         public DangNhap()
         {
             InitializeComponent();
@@ -27,11 +30,20 @@ namespace GUI
             groupBox2.BackColor = Color.Transparent;
         }
 
-        private void btndangnhap_Click(object sender, EventArgs e)
+        
+
+       
+
+        private void btnthoat_Click(object sender, EventArgs e)
         {
-            ////a = txttaikhoan.Text;
-            ////b = txtmatkhau.Text;
-            ////if (BLLDangNha.Dangnhap(a, b))
+            Close();
+        }
+
+        private void btndangnhap_Click_1(object sender, EventArgs e)
+        {
+            //a = txttaikhoan.Text;
+            //b = txtmatkhau.Text;
+            //if (BLLDangNha.Dangnhap(a, b))
             //{
             //    MessageBox.Show("Đăng Nhập Thành Cônng ", "Thông Báo");
             //    this.Close();
@@ -53,11 +65,6 @@ namespace GUI
             //{
             //    MessageBox.Show("Thông tin hoặc mật khẩu sai!!! Vui Lòng nhập Lại ", "Thông Báo", MessageBoxButtons.OKCancel);
             //}
-        }
-
-        private void btnthoat_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

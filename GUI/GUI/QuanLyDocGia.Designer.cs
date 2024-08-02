@@ -63,7 +63,7 @@
             groupBox1.Size = new Size(681, 624);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            groupBox1.Text = "Thông Tin Độc Giả";
             // 
             // btnhienthi
             // 
@@ -159,7 +159,7 @@
             groupBox2.Size = new Size(764, 619);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
-            groupBox2.Text = "groupBox2";
+            groupBox2.Text = "Danh Sách Độc Giả";
             // 
             // dataGridView1
             // 

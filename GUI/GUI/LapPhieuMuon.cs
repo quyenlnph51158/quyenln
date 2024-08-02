@@ -41,6 +41,7 @@ namespace GUI
         {
             foreach (var i in db.GetAllPhieuMuon().ToList().OrderBy(a => a.MaPhieuMuon.Length))
             {
+                var id = i.MaTaiKhoan;
                 DataRow row = dtPhieuMuon.NewRow();
                 row["Mã phiếu mượn"] = i.MaPhieuMuon;
                 row["Tên độc giả"] = db.GetDocGiaById(i.MaDocGia).TenDocGia;
@@ -188,12 +189,7 @@ namespace GUI
                 textBox1.Text = tongtien.ToString();
                 dtChiTiet.Rows.Add(row);
                 dgvPhieuChitiet.DataSource = dtChiTiet;
-
-                
-
             }
-
-
             db.UpdateSach(maSach, soLuong);
             dtSach.Rows.Clear();
             LoadValuesSach();
@@ -303,7 +299,6 @@ namespace GUI
                 }
                 
             }
-
         }
 
         private void dgvPhieuChitiet_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -314,13 +309,7 @@ namespace GUI
             maPhieuMuon = dr.Cells[0].Value.ToString();
             soLuong = Convert.ToInt32(dr.Cells[2].Value);
             tongTien = Convert.ToDouble(dr.Cells[3].Value);
-
-            
-
-
-
         }
-
         private void btnsua_Click(object sender, EventArgs e)
         {
             var maPhieuMuon = txtMaPhieuMuon.Text;

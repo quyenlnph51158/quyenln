@@ -54,11 +54,11 @@
             groupBox1.BackColor = Color.White;
             groupBox1.Controls.Add(txttaikhoan);
             groupBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.ForeColor = Color.Red;
+            groupBox1.ForeColor = Color.Lime;
             groupBox1.Location = new Point(374, 257);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(262, 58);
-            groupBox1.TabIndex = 22;
+            groupBox1.TabIndex = 34;
             groupBox1.TabStop = false;
             groupBox1.Text = "Tài Khoản ";
             // 
@@ -79,21 +79,20 @@
             btnthoat.Location = new Point(523, 431);
             btnthoat.Name = "btnthoat";
             btnthoat.Size = new Size(118, 43);
-            btnthoat.TabIndex = 25;
+            btnthoat.TabIndex = 37;
             btnthoat.Text = "Thoát";
             btnthoat.UseVisualStyleBackColor = false;
-            btnthoat.Click += btnthoat_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe Print", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(255, 255, 128);
-            label1.Location = new Point(288, 35);
+            label1.Font = new Font("VNI-Awchon", 17.9999981F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Lime;
+            label1.Location = new Point(265, 82);
             label1.Name = "label1";
-            label1.Size = new Size(463, 40);
-            label1.TabIndex = 21;
+            label1.Size = new Size(482, 39);
+            label1.TabIndex = 33;
             label1.Text = "HỆ THỐNG ĐĂNG NHẬP THƯ vIỆN ";
             // 
             // btndangnhap
@@ -105,21 +104,21 @@
             btndangnhap.Margin = new Padding(1);
             btndangnhap.Name = "btndangnhap";
             btndangnhap.Size = new Size(117, 43);
-            btndangnhap.TabIndex = 24;
+            btndangnhap.TabIndex = 36;
             btndangnhap.Text = "Đăng Nhập";
             btndangnhap.UseVisualStyleBackColor = false;
-            btndangnhap.Click += btndangnhap_Click;
+            btndangnhap.Click += btndangnhap_Click_1;
             // 
             // groupBox2
             // 
             groupBox2.BackColor = Color.White;
             groupBox2.Controls.Add(txtmatkhau);
             groupBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.ForeColor = Color.Red;
+            groupBox2.ForeColor = Color.Lime;
             groupBox2.Location = new Point(374, 321);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(262, 56);
-            groupBox2.TabIndex = 23;
+            groupBox2.TabIndex = 35;
             groupBox2.TabStop = false;
             groupBox2.Text = "Mật Khẩu ";
             // 
@@ -129,7 +128,7 @@
             pictureBox1.Location = new Point(1, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1000, 563);
-            pictureBox1.TabIndex = 20;
+            pictureBox1.TabIndex = 32;
             pictureBox1.TabStop = false;
             // 
             // DangNhap

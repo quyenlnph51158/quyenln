@@ -34,3 +34,21 @@ C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\BLL\obj\Debug\net
 C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\BLL\obj\Debug\net8.0\refint\BLL.dll
 C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\BLL\obj\Debug\net8.0\BLL.pdb
 C:\visual\Dự án 1 SU24\DA1\try2\Nhom1-SD19315-ALL-IN-10\GUI\BLL\obj\Debug\net8.0\ref\BLL.dll
+D:\U1\quyenln\GUI\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\U1\quyenln\GUI\BLL\bin\Debug\net8.0\BLL.dll
+D:\U1\quyenln\GUI\BLL\bin\Debug\net8.0\BLL.pdb
+D:\U1\quyenln\GUI\BLL\bin\Debug\net8.0\DAL.dll
+D:\U1\quyenln\GUI\BLL\bin\Debug\net8.0\DTO.dll
+D:\U1\quyenln\GUI\BLL\bin\Debug\net8.0\DAL.pdb
+D:\U1\quyenln\GUI\BLL\bin\Debug\net8.0\DTO.pdb
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.dll
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\BLL.pdb
+D:\U1\quyenln\GUI\BLL\obj\Debug\net8.0\ref\BLL.dll
