@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\",
+  "WorkspaceRootPath": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8286CA3A-5B9F-4C10-8D02-7B1FF3B7B86E}|GUI\\GUI.csproj|c:\\visual\\d\u1EF1 \u00E1n 1 su24\\da1\\try2\\nhom1-sd19315-all-in-10\\gui\\gui\\lapphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8286CA3A-5B9F-4C10-8D02-7B1FF3B7B86E}|GUI\\GUI.csproj|c:\\visual\\d\u1EF1 \u00E1n 1 su24\\da1\\th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\gui\\gui\\lapphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8286CA3A-5B9F-4C10-8D02-7B1FF3B7B86E}|GUI\\GUI.csproj|solutionrelative:gui\\lapphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1675A9BA-090E-4870-B1F8-B22DD356ECE3}|BLL\\BLL.csproj|c:\\visual\\d\u1EF1 \u00E1n 1 su24\\da1\\try2\\nhom1-sd19315-all-in-10\\gui\\bll\\lapphieumuonchitietbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8286CA3A-5B9F-4C10-8D02-7B1FF3B7B86E}|GUI\\GUI.csproj|C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\gui\\lapphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8286CA3A-5B9F-4C10-8D02-7B1FF3B7B86E}|GUI\\GUI.csproj|solutionrelative:gui\\lapphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1675A9BA-090E-4870-B1F8-B22DD356ECE3}|BLL\\BLL.csproj|c:\\visual\\d\u1EF1 \u00E1n 1 su24\\da1\\th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\gui\\bll\\lapphieumuonchitietbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1675A9BA-090E-4870-B1F8-B22DD356ECE3}|BLL\\BLL.csproj|solutionrelative:bll\\lapphieumuonchitietbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8187E3E-6BED-4161-8724-517A83516A4F}|DAL\\DAL.csproj|c:\\visual\\d\u1EF1 \u00E1n 1 su24\\da1\\try2\\nhom1-sd19315-all-in-10\\gui\\dal\\lapphieumuonchitietdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8187E3E-6BED-4161-8724-517A83516A4F}|DAL\\DAL.csproj|c:\\visual\\d\u1EF1 \u00E1n 1 su24\\da1\\th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\gui\\dal\\lapphieumuonchitietdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8187E3E-6BED-4161-8724-517A83516A4F}|DAL\\DAL.csproj|solutionrelative:dal\\lapphieumuonchitietdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8286CA3A-5B9F-4C10-8D02-7B1FF3B7B86E}|GUI\\GUI.csproj|C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\gui\\lapphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8286CA3A-5B9F-4C10-8D02-7B1FF3B7B86E}|GUI\\GUI.csproj|solutionrelative:gui\\lapphieumuon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LapPhieuMuon.cs [Design]",
-              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\LapPhieuMuon.cs",
+              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\GUI\\LapPhieuMuon.cs",
               "RelativeDocumentMoniker": "GUI\\LapPhieuMuon.cs",
-              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\LapPhieuMuon.cs [Design]",
+              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\GUI\\LapPhieuMuon.cs [Design]",
               "RelativeToolTip": "GUI\\LapPhieuMuon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T14:22:22.673Z",
@@ -43,11 +43,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LapPhieuMuonChiTietDAL.cs",
-              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DAL\\LapPhieuMuonChiTietDAL.cs",
+              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\DAL\\LapPhieuMuonChiTietDAL.cs",
               "RelativeDocumentMoniker": "DAL\\LapPhieuMuonChiTietDAL.cs",
-              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\DAL\\LapPhieuMuonChiTietDAL.cs",
+              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\DAL\\LapPhieuMuonChiTietDAL.cs",
               "RelativeToolTip": "DAL\\LapPhieuMuonChiTietDAL.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowC8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LapPhieuMuonChiTietBLL.cs",
-              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\LapPhieuMuonChiTietBLL.cs",
+              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\BLL\\LapPhieuMuonChiTietBLL.cs",
               "RelativeDocumentMoniker": "BLL\\LapPhieuMuonChiTietBLL.cs",
-              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\BLL\\LapPhieuMuonChiTietBLL.cs",
+              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\BLL\\LapPhieuMuonChiTietBLL.cs",
               "RelativeToolTip": "BLL\\LapPhieuMuonChiTietBLL.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAmwKoAAAAsAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAiwKoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T16:40:35.259Z"
             },
@@ -69,11 +69,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LapPhieuMuon.cs",
-              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\LapPhieuMuon.cs",
+              "DocumentMoniker": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\GUI\\LapPhieuMuon.cs",
               "RelativeDocumentMoniker": "GUI\\LapPhieuMuon.cs",
-              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\try2\\Nhom1-SD19315-ALL-IN-10\\GUI\\GUI\\LapPhieuMuon.cs",
+              "ToolTip": "C:\\visual\\D\u1EF1 \u00E1n 1 SU24\\DA1\\Th\u01B0 mu\u0323c m\u01A1\u0301i (2)\\quyenln\\GUI\\GUI\\LapPhieuMuon.cs",
               "RelativeToolTip": "GUI\\LapPhieuMuon.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAcwMIAAAAAAAAA",
+              "ViewState": "AQIAAEcBAAAAAAAAAAAvwFwBAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T16:36:10.288Z",
               "EditorCaption": ""
